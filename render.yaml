@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: geo-tracker
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: REDIRECT_URL
+        value: https://www.instagram.com  # ou l’URL que tu veux après la géolocalisation
