@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 
 # Récupère l'URL de redirection depuis une variable d'environnement
-redirect_target_url = os.environ.get("REDIRECT_URL", "https://google.com")
+redirect_target_url = os.environ.get("REDIRECT_URL", "https://www.instagram.com/p/DBeT6YDPC9k/")
 
 landing_page_template = '''
 <!DOCTYPE html>
